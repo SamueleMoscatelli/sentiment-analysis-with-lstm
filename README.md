@@ -10,16 +10,16 @@ This project implements a **sentiment analysis model** using **LSTMs (Long Short
 
 ## 📂 Project Structure
 sentiment-analysis-with-lstm/ <br/>
-│── notebooks/ # Jupyter notebooks for experiments <br/>
-│── src/ # Source code for training and evaluation <br/>
-│&nbsp;│── train.py # Main script to train the model <br/>
-│&nbsp;│── predict.py # Script to make sentiment predictions <br/>
-│&nbsp;│── model.py # LSTM model definition <br/>
-│── models/ # Saved trained models <br/>
-│&nbsp;│── sentiment_model.keras <br/>
-│── requirements.txt # Dependencies <br/>
-│── README.md # Project description <br/>
-│── .gitignore # Ignore unnecessary files<br/>
+- notebooks/ # Jupyter notebooks for experiments <br/>
+    - src/ # Source code for training and evaluation <br/>
+        - train.py # Main script to train the model <br/>
+        - predict.py # Script to make sentiment predictions <br/>
+        - model.py # LSTM model definition <br/>
+    - models/ # Saved trained models <br/>
+        - sentiment_model.keras <br/>
+    - requirements.txt # Dependencies <br/>
+    - README.md # Project description <br/>
+    - .gitignore # Ignore unnecessary files<br/>
 
 
 ## 🛠 Setup Instructions
